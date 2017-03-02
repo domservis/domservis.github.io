@@ -34903,6 +34903,7 @@ html:not(.lt-ie10) .not-animated {
   font-size: 2em;
   font-weight: 900;
   fill: #00b3f5;
+	margin-top: -9px;
 }
 
 .rd-navbar-brand > * {
