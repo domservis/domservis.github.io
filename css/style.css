@@ -34899,7 +34899,8 @@ html:not(.lt-ie10) .not-animated {
   display: inline-block;
   transition: none;
   font-weight: 900;
-    font-size: 25.25px;
+  font-size: 25.25px;
+  margin-top: -5px;
 }
 
 .rd-navbar-brand > * {
