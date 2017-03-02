@@ -24023,6 +24023,8 @@ textarea.form-control {
   position: relative;
   margin-bottom: 0;
   text-align: left;
+	    top: -56px;
+    left: -15px;
 }
 
 .form-group + .form-group {
@@ -39509,6 +39511,7 @@ div.rd-search-results-live.active {
     right: 40px;
     bottom: 40px;
   }
+	
 }
 
 /**
@@ -39782,6 +39785,9 @@ div.rd-search-results-live.active {
   .swiper-pagination-bullet + * {
     margin-left: 20px;
   }
+	.form-group {
+    top: -46px;	
+	}
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
