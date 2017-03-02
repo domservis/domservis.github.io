@@ -34894,6 +34894,8 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-brand {
   display: inline-block;
   transition: none;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 .rd-navbar-brand > * {
