@@ -40053,7 +40053,7 @@ div.rd-search-results-live.active {
   white-space: nowrap;
   background-position: center center;
   overflow: hidden;
-  background: #222;
+  background: #000;
 }
 
 .swiper-slide:not(.vide):not(.rd-parallax):before,
