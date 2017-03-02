@@ -40114,9 +40114,13 @@ div.rd-search-results-live.active {
     padding-top: 68vw;
   }
 	#msk{
-	    background: white;
-    padding: 3px 0.1px 0.1px 0.1px;
-    border-radius: 5px 5px 20px 20px;
+	       width: 65px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    background: white;
+    padding: 3px 1.7px 1.1px 1.1px;
+    border-radius: 5px 5px 10px 10px;;
 	}
 }
 
