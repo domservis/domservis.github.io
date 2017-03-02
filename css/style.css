@@ -40127,7 +40127,10 @@ div.rd-search-results-live.active {
     width: 80px;
     ;}
 	
-	@media (max-width: 330px) {.rd-navbar-brand {font-size:25px;margin-top:-5px;}#msk {width: 55px;background: gold;border-radius: 0px 0px 25% 25%;background-size: 30px;}}
+	@media (max-width: 330px) {.rd-navbar-brand {font-size:25px;margin-top:-5px;}#msk {
+    width: 55px;background: white;
+    border-radius: 5px 5px 25% 25%;
+    padding: 3px 3px 3px 2.3px;}}
 	
   .swiper-slide-caption {
     padding-top: 200px;
