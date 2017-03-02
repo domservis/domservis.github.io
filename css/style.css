@@ -1,4 +1,4 @@
-@import url("../../themeTemplate/css/themeforest.css"); 
+@import url("themeTemplate/css/themeforest.css"); 
 /*
 Theme Name: style
 Author: the philip team
@@ -238,6 +238,7 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+  fill: #59b7ff;
 }
 
 figure {
