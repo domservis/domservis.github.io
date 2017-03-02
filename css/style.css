@@ -11118,9 +11118,9 @@ fieldset[disabled] .page .btn-default {
 }
 
 .page .btn-primary {
-      color: #42a4ff;
-    background-color: #ffffff;
-  border-color: #42a4ff;
+    color: #ffffff;
+    background-color: #FFC107;
+    border-color: #FF5722;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
   box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
 }
