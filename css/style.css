@@ -40126,6 +40126,9 @@ div.rd-search-results-live.active {
 	#msk {    left: 3.5%;
     width: 80px;
     ;}
+	
+	@media (max-width: 330px) {.rd-navbar-brand {font-size:25px}#msk {width:65px;}}
+	
   .swiper-slide-caption {
     padding-top: 200px;
   }
