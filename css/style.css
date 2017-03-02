@@ -34899,8 +34899,8 @@ html:not(.lt-ie10) .not-animated {
   display: inline-block;
   transition: none;
   font-weight: 900;
-  font-size: 25.25px;
-  margin-top: -5px;
+     font-size: 20px;
+    margin-top: -2px;
 }
 
 .rd-navbar-brand > * {
@@ -36448,8 +36448,8 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-fixed .rd-navbar-panel .rd-navbar-brand {
   position: fixed;
-  top: 13px;
-  left: 56px;
+     top: 13px;
+    left: 70px;;
   z-index: 17;
   display: block;
   overflow: hidden;
