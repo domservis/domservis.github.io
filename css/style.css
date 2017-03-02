@@ -39785,9 +39785,7 @@ div.rd-search-results-live.active {
   .swiper-pagination-bullet + * {
     margin-left: 20px;
   }
-	.form-group {
-    top: -46px;	
-	}
+	
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -40108,6 +40106,9 @@ div.rd-search-results-live.active {
   .swiper-slide > img {
     opacity: .55;
   }
+	.form-group {
+    top: -46px;	
+	}
 }
 
 .swiper-slide .swiper-slide-text {
