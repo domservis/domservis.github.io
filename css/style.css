@@ -40113,6 +40113,11 @@ div.rd-search-results-live.active {
   .swiper-slide-caption {
     padding-top: 68vw;
   }
+	#msk{
+	    background: white;
+    padding: 3px 0.1px 0.1px 0.1px;
+    border-radius: 5px 5px 20px 20px;
+	}
 }
 
 @media (max-width: 767px) {
