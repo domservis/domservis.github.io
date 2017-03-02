@@ -40128,7 +40128,7 @@ div.rd-search-results-live.active {
     width: 80px;
     ;}
 	
-	@media (max-width: 330px) {.rd-navbar-brand {font-size:25px;margin-top:-5px;}.swiper-container, .swiper-container .swiper-wrapper {
+	@media (max-width: 330px) {#ic{padding-top:40px;}.rd-navbar-brand {font-size:25px;margin-top:-5px;}.swiper-container, .swiper-container .swiper-wrapper {
 		
      height:px;		
 		
