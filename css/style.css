@@ -40122,7 +40122,8 @@ div.rd-search-results-live.active {
   .swiper-slide h1 {
     font-size: 26px;
     line-height: 1.35;
-  }
+	 }
+	#msk {text-align: left;}
   .swiper-slide-caption {
     padding-top: 200px;
   }
