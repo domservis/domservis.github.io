@@ -136,6 +136,12 @@ Version: 1.0
 /** 1 Bootstrap Framework */
 /** 1.1  Normalize */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+#msk { position: absolute;
+    top: 10px;
+   opacity: 0.85;
+   width: 125px;}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
