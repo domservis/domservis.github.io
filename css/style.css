@@ -34896,6 +34896,7 @@ html:not(.lt-ie10) .not-animated {
   transition: none;
   font-size: 2em;
   font-weight: 900;
+  fill: #00b3f5;
 }
 
 .rd-navbar-brand > * {
