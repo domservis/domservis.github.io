@@ -40123,7 +40123,7 @@ div.rd-search-results-live.active {
     font-size: 26px;
     line-height: 1.35;
 	 }
-	#msk {text-align: left;}
+	#msk {left: 2.5%;width: 80px;}
   .swiper-slide-caption {
     padding-top: 200px;
   }
