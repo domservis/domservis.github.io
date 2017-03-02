@@ -35852,7 +35852,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-static.rd-navbar-corporate .rd-navbar-inner {
-  padding-top: 60px;
+ /* padding-top: 60px; */
 }
 
 .rd-navbar-static.rd-navbar-corporate .rd-navbar-top-panel {
