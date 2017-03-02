@@ -141,6 +141,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+#msk{    width: 91px;
+    position: absolute;
+    top: 18px;}
 
 body {
   margin: 0;
