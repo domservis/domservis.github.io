@@ -34902,7 +34902,7 @@ html:not(.lt-ie10) .not-animated {
   display: inline-block;
   transition: none;
   font-weight: 900;
-     font-size: 20px;
+     font-size: 26px;
     margin-top: -2px;
 }
 
@@ -40143,6 +40143,7 @@ div.rd-search-results-live.active {
     font-weight: 900;
     color: #fff;
 }
+	.rd-navbar-brand {font-size:20px;}
 }
 
 @media (max-width: 767px) {
