@@ -40133,8 +40133,7 @@ div.rd-search-results-live.active {
 	}
 	#cnt {position: absolute;
     top: 0px;
-    left: 110px;
-    background: #fff;
+    left: 145px;  
     border-radius: 10px;
 	display:block;}
 	#cnt a {
