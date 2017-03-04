@@ -1,0 +1,35 @@
+body{
+     padding: 15px 15px;
+    background: rgba(0, 0, 0, 0.08);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+  
+  .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #b86a53;
+}
+.table-bordered {
+    border: 1px solid #b86a53;
+  border-radius: 20px;
+}
+table {
+    background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
