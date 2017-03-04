@@ -40135,7 +40135,8 @@ div.rd-search-results-live.active {
     top: 0px;
     left: 110px;
     background: #fff;
-    border-radius: 10px;}
+    border-radius: 10px;
+	display:block;}
 }
 
 @media (max-width: 767px) {
