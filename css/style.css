@@ -40137,6 +40137,10 @@ div.rd-search-results-live.active {
     background: #fff;
     border-radius: 10px;
 	display:block;}
+	#cnt a {
+    font-weight: 900;
+    color: #fff;
+}
 }
 
 @media (max-width: 767px) {
