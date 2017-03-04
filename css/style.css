@@ -11121,7 +11121,7 @@ fieldset[disabled] .page .btn-default {
 .page .btn-primary {
     color: #ffffff;
     background-color: #FFC107;
-    border-color: #FF5722;
+    border-color: #FFEB3B;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
   box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
 }
