@@ -144,6 +144,7 @@ html {
 #msk{    width: 91px;
     position: absolute;
     top: 18px;}
+#cnt {display:none;}
 
 body {
   margin: 0;
@@ -40130,6 +40131,11 @@ div.rd-search-results-live.active {
     padding: 3px 1.7px 1.1px 1.1px;
     border-radius: 5px 5px 10px 10px;;
 	}
+	#cnt {position: absolute;
+    top: 0px;
+    left: 110px;
+    background: #fff;
+    border-radius: 10px;}
 }
 
 @media (max-width: 767px) {
