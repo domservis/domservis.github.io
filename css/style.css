@@ -40132,10 +40132,12 @@ div.rd-search-results-live.active {
     border-radius: 5px 5px 10px 10px;;
 	}
 	#cnt {position: absolute;
-    top: 0px;
-    left: 68%;
+    top: -8px;
+    left: 40%;
     border-radius: 10px;
-    display: block;}
+    display: block;
+    width: 100%;
+    max-width: 100%;}
 	#sp{
     background: #FFC107;	
 	}
