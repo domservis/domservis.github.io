@@ -36,7 +36,7 @@ ymaps.ready(function () {
     // Создаём выпадающий список для выбора типа маршрута.
         routeTypeSelector = new ymaps.control.ListBox({
             data: {
-                content: 'Маршрут до Вас'
+                content: 'Построить маршрут до Вас'
             },
             items: [
                 new ymaps.control.ListBoxItem('На автомобиле'),
