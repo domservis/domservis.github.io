@@ -40141,10 +40141,12 @@ div.rd-search-results-live.active {
 	#sp{
     background: #FFC107;
     box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
+		margin-left: 20px;
 	}
 	#sp1{
     background: #FFC107;
     box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
+		margin-left: 20px;
 	}
 	#cnt a {
     font-weight: 900;
