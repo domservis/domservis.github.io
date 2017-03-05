@@ -40152,7 +40152,7 @@ div.rd-search-results-live.active {
     font-weight: 900;
     color: #fff;
 }
-	.rd-navbar-brand {font-size:20px;}
+	.rd-navbar-brand {font-size:20px;} .rd-navbar-fixed .rd-navbar-panel .rd-navbar-brand {left:100px;}
 }
 
 @media (max-width: 767px) {
