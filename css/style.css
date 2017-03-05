@@ -35318,7 +35318,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-static .rd-navbar-megamenu,
 .rd-navbar-fullwidth .rd-navbar-dropdown,
 .rd-navbar-fullwidth .rd-navbar-megamenu {
-  border-top: 2px solid #084884;
+/*  border-top: 2px solid #084884;  */
   -webkit-box-shadow: 0px 2px 10px 0px rgba(49, 49, 50, 0.13);
   box-shadow: 0px 2px 10px 0px rgba(49, 49, 50, 0.13);
 }
