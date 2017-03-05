@@ -20,7 +20,7 @@ ymaps.ready(function () {
         }),
 
     // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'Кремль' }, { preset: 'islands#redStretchyIcon' }),
+        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер' }, { preset: 'islands#redStretchyIcon' }),
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
@@ -76,7 +76,7 @@ ymaps.ready(function () {
 
     function onMapClick (e) {
         clearSourcePoint();
-        sourcePoint = new ymaps.Placemark(e.get('coords'), { iconContent: 'Отсюда' }, { preset: 'islands#greenStretchyIcon' });
+        sourcePoint = new ymaps.Placemark(e.get('coords'), { iconContent: 'Сюда' }, { preset: 'islands#greenStretchyIcon' });
         myMap.geoObjects.add(sourcePoint);
         createRoute();
     }
