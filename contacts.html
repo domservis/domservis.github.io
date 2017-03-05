@@ -47,6 +47,26 @@
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
+		<script>window.ChatraSetup = {
+    mode: 'frame',
+    injectTo: 'chatra-wrapper' 
+};
+    ChatraID = 'feimekTqYwDJ6bPhx';
+    (function(d, w, c) {
+        var n = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+            + '//call.chatra.io/chatra.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, window, 'Chatra');
+	
+	   Chatra('setColors', {
+    chatBg: 'transparent' // фон
+});</script>
 </head>
 <body>
 <div class="page">
@@ -241,50 +261,12 @@
       <div class="shell">
         <div class="range">
           <div class="cell-md-8">
-            <h5>Get in Touch</h5>
-            <hr>
-            <p>You can contact us any way that is convenient for you. We are available 24/7 via fax or email. You can also use a quick contact form below or visit our office personally.</p>
-            <p>We would be happy to answer your questions.</p>
-            <div class="offset-top-50">
-              <form data-form-output="form-output-global" data-form-type="contact" method="post" action="../../../external.html?link=http://chipchipbook.com/template/service_repair2/bat/rd-mailform.php" class="rd-mailform rd-mailform-mod-1">
-                <div class="range">
-                  <div class="cell-sm-6">
-                    <div class="form-group">
-                      <label for="contact-first-name" class="form-label-outside">First name</label>
-                      <input id="contact-first-name" type="text" name="first-name" data-constraints="@Required" class="form-control">
-                    </div>
+      <div id="chatra-wrapper"  style="border-radius:30px;height:525px;width:100%;"></div>
                   </div>
-                  <div class="cell-sm-6 offset-top-18 offset-sm-top-0">
-                    <div class="form-group">
-                      <label for="contact-last-name" class="form-label-outside">Last name</label>
-                      <input id="contact-last-name" type="text" name="last-name" data-constraints="@Required" class="form-control">
-                    </div>
-                  </div>
-                  <div class="cell-sm-6 offset-top-18">
-                    <div class="form-group">
-                      <label for="contact-email" class="form-label-outside">E-mail</label>
-                      <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                    </div>
-                  </div>
-                  <div class="cell-sm-6 offset-top-18">
-                    <div class="form-group">
-                      <label for="contact-phone" class="form-label-outside">Phone</label>
-                      <input id="contact-phone" type="text" name="phone" data-constraints="@Required @Numeric" class="form-control">
-                    </div>
-                  </div>
-                  <div class="cell-xs-12 offset-top-18">
-                    <div class="form-group">
-                      <label for="contact-message" class="form-label-outside">Message</label>
-                      <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
-                    </div>
-                  </div>
-                  <div class="cell-xs-12 offset-top-30">
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+               
+             
+            
+        
           <div class="cell-md-4">
             <div class="range inset-lg-left-30">
               <div class="cell-sm-6 cell-md-12">
