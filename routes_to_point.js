@@ -36,7 +36,7 @@ ymaps.ready(function () {
     // Создаём выпадающий список для выбора типа маршрута.
         routeTypeSelector = new ymaps.control.ListBox({
             data: {
-                content: 'Построить маршрут до Вас'
+                content: 'Маршрут до Вас'
             },
             items: [
                 new ymaps.control.ListBoxItem('На автомобиле'),
@@ -83,7 +83,7 @@ ymaps.ready(function () {
 
     function onMapClick (e) {
         clearSourcePoint();
-        sourcePoint = new ymaps.Placemark(e.get('coords'), { iconContent: 'Сюда' }, { preset: 'islands#greenStretchyIcon' });
+        sourcePoint = new ymaps.Placemark(e.get('coords'), { iconContent: 'Я ТУТ' }, { preset: 'islands#greenStretchyIcon' });
         myMap.geoObjects.add(sourcePoint);
         createRoute();
     }
