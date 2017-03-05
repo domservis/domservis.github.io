@@ -20,7 +20,7 @@ ymaps.ready(function () {
         }),
 
     // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер' }, { preset: 'islands#redStretchyIcon' }),
+        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер<br><img src="images/258.png"/>' }, { preset: 'islands#redStretchyIcon' }),
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
