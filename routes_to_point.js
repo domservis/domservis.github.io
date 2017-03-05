@@ -25,7 +25,8 @@ ymaps.ready(function () {
                                           { iconLayout: 'default#image',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
           iconImageSize: [80, 80],
-          iconImageOffset: [-20, -47] })  ,
+          iconImageOffset: [-20, -47],
+          iconContent: 'ближайший мастер'})  ,
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
