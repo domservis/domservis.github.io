@@ -24,7 +24,7 @@ ymaps.ready(function () {
         { preset: 'islands#redStretchyIcon' }, { iconLayout: 'default#image',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
           iconImageSize: [40, 51],
-          iconImageOffset: [-20, -47] });  ,
+          iconImageOffset: [-20, -47] })  ,
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
