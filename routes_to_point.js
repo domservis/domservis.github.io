@@ -8,7 +8,7 @@ ymaps.ready(function () {
     // Инициализируем карту.
         myMap = new ymaps.Map('map', {
             center: targetCoords,
-            zoom: 11
+            zoom: 12
         }, {
             // Ограничиваем количество результатов поиска.
             searchControlResults: 1,
