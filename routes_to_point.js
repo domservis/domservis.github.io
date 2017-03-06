@@ -37,7 +37,6 @@ ymaps.ready(function () {
 		
 		
 		
-		
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
 	balloonLayout: "default#imageWithContent",
 	balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
