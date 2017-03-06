@@ -30,7 +30,7 @@ ymaps.ready(function () {
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "ВЫЗОВ/ЗВОНОК",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
-	    balloonContentBody: "<iframe src='https://www.youtube.com/embed/3mq9A2bvqpk'frameborder='0' allowfullscreen></iframe>",
+	    balloonContentBody: "<iframe src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
 	    balloonId: 'chatra-wrapper',
 	    balloonImageSize: [260, 89],
             balloonContentFooter: "+/-",
