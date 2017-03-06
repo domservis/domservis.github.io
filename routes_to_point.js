@@ -42,7 +42,8 @@ ymaps.ready(function () {
           iconImageSize: [80, 80],
           
           iconImageOffset: [-20, -47],
-          iconContent: '<a href='tel:89859351863' class='btn btn-primary btn-mod-1' style='margin-top: 0;margin-bottom: 7px;padding: 4.5px;'><span id='sp3' class='icon icon-circle-sm icon-sm-variant-1 icon-venice-blue-filled icon-white mdi mdi-phone' style='padding: 0;margin: 0;background: transparent;'></span></a>'})  ,
+          iconContent: '<a href='tel:89859351863'</a>'
+					  })  ,
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
