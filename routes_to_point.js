@@ -30,7 +30,7 @@ ymaps.ready(function () {
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "ВЫЗОВ/ЗВОНОК",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
-	    balloonContentBody: "- Одна Информация<br>- Другая Информация",
+	    balloonContentBody: "- Одна Информация<br id="chatra-wrapper">- Другая Информация",
 	    balloonImageSize: [260, 89],
             balloonContentFooter: "+/-",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
