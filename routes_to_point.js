@@ -27,12 +27,11 @@ ymaps.ready(function () {
 
     // Метка для конечной точки маршрута////.
         targetPoint = new ymaps.Placemark(targetCoords, {
-		iconLayout: 'default#imageWithContent',
-		iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
-		iconImageSize: [64, 64], // размер иконки
-	iconImageOffset: [-32, -64], // позиция иконки
-	
-    iconContent: "<div id='dot'><div style='background: url(https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png);' class='ping'></div></div><br><a href='#' id='mp'>открыть</a>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
+	  iconLayout: 'default#imageWithContent',
+	    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
+	    iconImageSize: [64, 64], // размер иконки
+	    iconImageOffset: [-32, -64], // позиция иконки
+            iconContent: "<div id='dot'><div style='background: url(https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png);' class='ping'></div></div><br><a href='#' id='mp'>открыть</a>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
             balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
 	    balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
