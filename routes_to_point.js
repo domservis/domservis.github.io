@@ -41,8 +41,7 @@ ymaps.ready(function () {
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
           iconImageSize: [80, 80],
           
-          iconImageOffset: [-20, -47],
-          iconContent: "<a href='tel:89859351863'</a>"
+          iconImageOffset: [-20, -47]
 					  })  ,
   
 
