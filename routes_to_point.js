@@ -1,6 +1,9 @@
 ymaps.ready(function () {
 
     // Координаты, к которым будем строить маршруты.
+    //
+    //
+    //
     // Укажите здесь, к примеру, координаты вашего офиса.
     var targetCoords = [55.744564, 37.624559],
     
@@ -21,11 +24,15 @@ ymaps.ready(function () {
         }),
 
     // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер' },
+        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "Заголовок",
+            balloonContentBody: "Информация",
+            balloonContentFooter: "+/-",
+            hintContent: "БЛИЖАЙШИЙ МАСТЕР" },
      //   { preset: 'islands#redStretchyIcon' },
                                           { iconLayout: 'default#image',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
           iconImageSize: [80, 80],
+          
           iconImageOffset: [-20, -47],
           iconContent: 'ближайший мастер'})  ,
 
@@ -166,4 +173,4 @@ ymaps.ready(function () {
         myMap.geoObjects.remove(currentRoute);
         currentRoute = currentRoutingMode = null;
     }
-});
+}),
