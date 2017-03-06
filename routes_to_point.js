@@ -43,7 +43,7 @@ ymaps.ready(function () {
 	balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
         balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",	    
-	balloonImageSize: [260, 89],
+	balloonImageSize: [80, 80],
         balloonContentFooter: "<center>{кнопка#1}:{кнопка#2}</center>",
         hintContent: "БЛИЖАЙШИЙ МАСТЕР"
                               })  ,
