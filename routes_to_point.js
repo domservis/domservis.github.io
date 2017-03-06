@@ -24,7 +24,7 @@ ymaps.ready(function () {
         }),
 
       // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
+        targetPoint = new ymaps.Placemark(targetCoords, {iconLayout: 'default#imageWithContent', iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContentHeader: "zagolovock", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
@@ -36,14 +36,7 @@ ymaps.ready(function () {
       //    balloonContentFooter: "",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
             },
-     //   { preset: 'islands#redStretchyIcon' },
-                                          { iconLayout: 'default#imageWithContent',
-          iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
-          iconImageSize: [80, 80],
-          
-          iconImageOffset: [-20, -47],
-          iconContent: "<a href='tel:89859351863'</a>"
-					  })  ,
+  
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
