@@ -27,7 +27,7 @@ ymaps.ready(function () {
         targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [270, 270], // размер нашего кастомного балуна в пикселях
-   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: "<a href='tel:89859351863' class='btn btn-primary btn-mod-1' style='z-index: 100;margin-top: 0;margin-bottom: 7px;padding: 4.5px;'><span id='sp3' class='icon icon-circle-sm icon-sm-variant-1 icon-venice-blue-filled icon-white mdi mdi-phone' style='padding: 0;margin: 0;background: #fff;'></span></a>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
+   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: "<button>кнопка</button>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
