@@ -20,7 +20,7 @@ ymaps.ready(function () {
             searchControlNoCentering: true,
 
             // Разрешаем кнопкам нужную длину.
-            buttonMaxWidth: 150
+            buttonMaxWidth: 250
         }),
 
       // Метка для конечной точки маршрута.
