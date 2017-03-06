@@ -23,11 +23,11 @@ ymaps.ready(function () {
             buttonMaxWidth: 250
         }),
 
-      // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, {iconLayout: 'default#imageWithContent', iconImageSize: [64, 64], // размер иконки
+    // Метка для конечной точки маршрута.
+        targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
-   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContentHeader: "zagolovock", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
+   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: "<a href='tel:89859351863' id='mp'>позвонить</a>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
@@ -35,7 +35,15 @@ ymaps.ready(function () {
 	    balloonImageSize: [260, 89],
       //    balloonContentFooter: "",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
-            }),
+            },
+     //   { preset: 'islands#redStretchyIcon' },
+                                          { iconLayout: 'default#imageWithContent',
+          iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
+          iconImageSize: [80, 80],
+          
+          iconImageOffset: [-20, -47],
+          iconContent: "<a href='tel:89859351863'</a>"
+					  })  ,
   
 
     // Получаем ссылки на нужные элементы управления.
