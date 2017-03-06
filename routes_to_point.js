@@ -35,7 +35,7 @@ ymaps.ready(function () {
 	    balloonImageSize: [260, 89],
       //    balloonContentFooter: "",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
-            },
+            }),
   
 
     // Получаем ссылки на нужные элементы управления.
