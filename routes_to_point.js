@@ -184,25 +184,4 @@ ymaps.ready(function () {
 }),
 
 
-  var polygonLayout = ymaps.templateLayoutFactory.createClass('<div class="placemark_layout_container"><div class="polygon_layout">!</div></div>');
 
-    var polygonPlacemark = new ymaps.Placemark(
-        [55.662693, 37.558416], {
-            hintContent: 'HTML метка сложной формы'
-        }, {
-            iconLayout: polygonLayout,
-            // Описываем фигуру активной области "Полигон".
-            iconShape: {   
-                type: 'Polygon',
-                // Полигон описывается в виде трехмерного массива. Массив верхнего уровня содержит контуры полигона. 
-                // Первый элемента массива - это внешний контур, а остальные - внутренние.
-                coordinates: [
-                    // Описание внешнего контура полигона в виде массива координат.
-                    [[-28,-76],[28,-76],[28,-20],[12,-20],[0,-4],[-12,-20],[-28,-20]]
-                    // , ... Описание внутренних контуров - пустых областей внутри внешнего.
-                ]
-            }
-        }
-    );
-    map.geoObjects.add(polygonPlacemark);
-});
