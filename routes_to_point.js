@@ -26,7 +26,9 @@ ymaps.ready(function () {
         }),
 
     // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
+        targetPoint = new ymaps.Placemark(targetCoords, {
+		iconLayout: 'default#imageWithContent',
+		iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: " <div id='dot'><div class='ping'></div></div><br><a href='#' id='mp'>открыть</a>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
@@ -37,11 +39,9 @@ ymaps.ready(function () {
 	    balloonImageSize: [260, 89],
       //    balloonContentFooter: "",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
-             iconLayout: 'default#imageWithContent',
+           
           
-          iconImageSize: [80, 80],
           
-          iconImageOffset: [-20, -47]
 					  })  ,
   
 
