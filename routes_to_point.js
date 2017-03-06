@@ -26,8 +26,8 @@ ymaps.ready(function () {
       // Метка для конечной точки маршрута.
         targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
-	balloonContentSize: [270, 270], // размер нашего кастомного балуна в пикселях
-   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: "<button>кнопка</button>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
+	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
+   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: "<span id='mp' class='icon icon-circle-sm icon-sm-variant-1 icon-venice-blue-filled icon-white mdi mdi-phone'></span>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
