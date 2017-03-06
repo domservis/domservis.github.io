@@ -39,7 +39,7 @@ ymaps.ready(function () {
 	    balloonId: 'chatra-wrapper',
 	    balloonImageSize: [260, 89],
       //    balloonContentFooter: "",
-            hintContent: "БЛИЖАЙШИЙ МАСТЕР",
+            hintContent: "БЛИЖАЙШИЙ МАСТЕР"
            
           
           
