@@ -24,9 +24,9 @@ ymaps.ready(function () {
     // Метка для конечной точки маршрута////.
         targetPoint = new ymaps.Placemark(targetCoords, {
 	
-	iconImageHref: "https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png",
+	iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 					  iconImageSize: [64, 64], // размер иконки
-					  iconImageOffset: [-32, -64], // позиция иконки
+					  iconImageOffset: [0, 0], // позиция иконки
 					  iconLayout: "default#imageWithContent",
 					  iconContent: "<div id='dot'><div class='ping'></div></div><br><a href='#' id='mp'>открыть</a>",
         
