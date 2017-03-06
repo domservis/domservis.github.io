@@ -25,7 +25,7 @@ ymaps.ready(function () {
             buttonMaxWidth: 250
         }),
 
-    // Метка для конечной точки маршрута.
+    // Метка для конечной точки маршрута////.
         targetPoint = new ymaps.Placemark(targetCoords, {
 		iconLayout: 'default#imageWithContent',
 		iconImageSize: [64, 64], // размер иконки
