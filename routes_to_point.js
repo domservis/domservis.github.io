@@ -42,7 +42,7 @@ ymaps.ready(function () {
           iconImageSize: [80, 80],
           
           iconImageOffset: [-20, -47],
-          iconContent: '<a href='tel:89859351863'</a>'
+          iconContent: "<a href='tel:89859351863'</a>"
 					  })  ,
 
     // Получаем ссылки на нужные элементы управления.
