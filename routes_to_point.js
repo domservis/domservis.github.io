@@ -36,9 +36,7 @@ ymaps.ready(function () {
 	    balloonImageSize: [260, 89],
       //    balloonContentFooter: "",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
-            },
-    
-                                          { iconLayout: 'default#imageWithContent',
+             iconLayout: 'default#imageWithContent',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
           iconImageSize: [80, 80],
           
