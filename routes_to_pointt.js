@@ -181,4 +181,4 @@ ymaps.ready(function () {
     function clearRoute () {
         myMap.geoObjects.remove(currentRoute);
         currentRoute = currentRoutingMode = null;
-    }
+    };
