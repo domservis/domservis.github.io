@@ -39,9 +39,9 @@ ymaps.ready(function () {
      //   { preset: 'islands#redStretchyIcon' },
                                           { iconLayout: 'default#imageWithContent',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
-          iconImageSize: [80, 80],
+          iconImageSize: [80, 80]
           
-          iconImageOffset: [0,0]
+         
 					  })  ,
   
 
