@@ -182,12 +182,3 @@ ymaps.ready(function () {
         myMap.geoObjects.remove(currentRoute);
         currentRoute = currentRoutingMode = null;
     }
-	
-	   calculate: function (e) {
-                // Константы.
-                var DELIVERY_TARIF = 20, // Стоимость за километр.
-                    MINIMUM_COST = 500; // Минимальная стоимость.
-
-                return Math.max(routeLength * DELIVERY_TARIF, MINIMUM_COST);
-            }
-});
