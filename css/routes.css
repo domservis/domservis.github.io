@@ -1,6 +1,6 @@
 #fr{width:100%;}#map{width:100%;height:100%;}
 .ymaps-2-1-48-balloon_layout_panel {background-color: rgba(255, 255, 255, 0.8)!important;}
-.ymaps-2-1-48-balloon__content {background: transparent!important;}
+.ymaps-2-1-48-balloon__content {background: rgba(255, 255, 255, 0.79)!important;}
 .ymaps-2-1-48-copyright__wrap {display: none!important;}                      /*----копирайт----*/
 .ymaps-2-1-48-map-copyrights-promo {display: none!important;}                /*----готомапс----*/
 .ymaps-2-1-48-balloon__close+.ymaps-2-1-48-balloon__content {margin-right: 5px!important;padding-right: 0;}
@@ -63,3 +63,11 @@ body::-webkit-scrollbar-thumb {
                 width: 100%;
                 height: 100%;
             }
+
+
+.ymaps-2-1-48-balloon__layout {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.79)!important;
+}
