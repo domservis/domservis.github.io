@@ -33,7 +33,7 @@ ymaps.ready(function () {
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
 	    balloonId: 'chatra-wrapper',
 	    balloonImageSize: [260, 89],
-            balloonContentFooter: "<center>{b#1}:{b#2}</center>",
+            balloonContentFooter: "<center><span id='spn1'>[<-]</span>:<span id='spn2'>[->]</span></center>",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
             },
      //   { preset: 'islands#redStretchyIcon' },
