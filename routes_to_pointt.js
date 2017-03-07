@@ -27,7 +27,7 @@ ymaps.ready(function () {
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
    iconContent: " <div id='dot'><div class='ping'></div></div><br><a href='#' id='mp'>открыть</a>",
-   balloonContentHeader: "<center>{b#1}:{b#2}</center>",
+   balloonContentHeader: "<center><span id='spn1'>[<-]</span>|<span id='spn2'>[->]</span></center>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
