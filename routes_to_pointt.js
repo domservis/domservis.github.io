@@ -25,13 +25,15 @@ ymaps.ready(function () {
         targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
-   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: " <div id='dot'><div class='ping'></div></div><br><a href='#' id='mp'>открыть</a>", balloonContentHeader: "<center>{кнопка#1}:{кнопка#2}</center>",
+   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
+   iconContent: " <div id='dot'><div class='ping'></div></div><br><a href='#' id='mp'>открыть</a>",
+   balloonContentHeader: "<center>{b#1}:{b#2}</center>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
 	    balloonId: 'chatra-wrapper',
 	    balloonImageSize: [260, 89],
-      //    balloonContentFooter: "",
+            balloonContentFooter: "<center>{b#1}:{b#2}</center>",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
             },
      //   { preset: 'islands#redStretchyIcon' },
