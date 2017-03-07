@@ -183,7 +183,7 @@ ymaps.ready(function () {
         currentRoute = currentRoutingMode = null;
     }
 	
-	   calculate: function (routeLength) {
+	   calculate: function (currentRoute) {
                 // Константы.
                 var DELIVERY_TARIF = 20, // Стоимость за километр.
                     MINIMUM_COST = 500; // Минимальная стоимость.
