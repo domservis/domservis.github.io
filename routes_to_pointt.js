@@ -27,7 +27,7 @@ ymaps.ready(function () {
 	balloonContentSize: [370, 370], // размер нашего кастомного балуна в пикселях
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
    iconContent: " <div id='dot'><div class='ping'></div></div><br><a href='#' id='mp'>открыть</a>",
-   balloonContentHeader: "<a href='tel:89859351863'><i class='fa fa-phone' aria-hidden='true'></i></a>",
+   balloonContentHeader: "<a href='tel:89859351863' style='position: absolute;font-size: 40px;font-weight: 900;'><i class='fa fa-phone' aria-hidden='true'></i></a>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
