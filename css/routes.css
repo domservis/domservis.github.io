@@ -3,7 +3,7 @@
 .ymaps-2-1-48-balloon__content {background: rgba(255, 255, 255, 0.79)!important;}
 .ymaps-2-1-48-copyright__wrap {display: none!important;}                      /*----копирайт----*/
 .ymaps-2-1-48-map-copyrights-promo {display: none!important;}                /*----готомапс----*/
-.ymaps-2-1-48-balloon__close+.ymaps-2-1-48-balloon__content {margin-right: 5px!important;padding-right: 0;}
+.ymaps-2-1-48-balloon__close+.ymaps-2-1-48-balloon__content {margin-right: 0px!important;padding-right: 0!important;}
 .ymaps-2-1-48-i-custom-scroll ::-webkit-scrollbar {width: 0px!important;height: 13px;}
 .ymaps-2-1-48-searchbox__normal-layout {display: none!important;}         /*----сёрчбокс----*/
 		     @keyframes sonar {
