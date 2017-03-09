@@ -90,6 +90,11 @@ body::-webkit-scrollbar-thumb {
 	  width: 90%;
 	  font-weight:900;
 }
+	ymaps.ymaps-2-1-48-listbox__button-text {
+    padding: 0!important;
+}
+	
+	
 	.ymaps-2-1-48-listbox__button-arrow {
     background: transparent!important;
   }
