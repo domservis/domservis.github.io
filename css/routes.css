@@ -1,3 +1,8 @@
+ ymaps.ymaps-2-1-48-listbox__button.ymaps-2-1-48-_visible-arrow.ymaps-2-1-48-_hidden-icon.ymaps-2-1-48-user-selection-none {
+    background: #FFC107;
+    color: #fff;
+}
+
 #fr{width:100%;}#map{width:100%;height:100%;}
 .ymaps-2-1-48-balloon_layout_panel {background-color: rgba(255, 255, 255, 0.4)!important;}
 .ymaps-2-1-48-balloon__content {background: rgba(255, 255, 255, 0.79)!important;}
@@ -70,4 +75,13 @@ body::-webkit-scrollbar-thumb {
     display: block;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.79)!important;
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) {
+/* Styles */
+  #i {font-size: 2em;}  .btn-warning {width: 55px;} 
+  ymaps.ymaps-2-1-48-listbox__button.ymaps-2-1-48-_visible-arrow.ymaps-2-1-48-_hidden-icon.ymaps-2-1-48-user-selection-none {
+    background: #FFC107;
+    color: #fff;
+    margin-left: -4.5px;
+}
 }
