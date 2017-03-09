@@ -86,6 +86,6 @@ body::-webkit-scrollbar-thumb {
 	  width: 90%;
 }
 	.ymaps-2-1-48-listbox__button-arrow {
-    background: transparent;
+    background: transparent!important;
   }
 }
