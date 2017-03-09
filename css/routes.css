@@ -83,5 +83,6 @@ body::-webkit-scrollbar-thumb {
     background: #FFC107;
     color: #fff;
     margin-left: -4.5px;
+	  width: 90%;
 }
 }
