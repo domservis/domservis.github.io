@@ -86,8 +86,8 @@ body::-webkit-scrollbar-thumb {
   ymaps.ymaps-2-1-48-listbox__button.ymaps-2-1-48-_visible-arrow.ymaps-2-1-48-_hidden-icon.ymaps-2-1-48-user-selection-none {
     background: #f0ad4e;
     color: #fff;
-    margin-left: -4.5px;
-	  width: 90%;
+    margin-left: -3.5px;
+	  width: 120%;
 	  font-weight:900;
 }
 	ymaps.ymaps-2-1-48-listbox__button-text {
