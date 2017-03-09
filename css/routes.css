@@ -84,6 +84,7 @@ body::-webkit-scrollbar-thumb {
     color: #fff;
     margin-left: -4.5px;
 	  width: 90%;
+	  font-weight:900;
 }
 	.ymaps-2-1-48-listbox__button-arrow {
     background: transparent!important;
