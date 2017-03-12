@@ -7,6 +7,10 @@
     padding: 0!important;
 }
 
+.ymaps-2-1-48-listbox__button-arrow {
+    background: transparent!important;
+}
+
 ymaps.ymaps-2-1-48-controls-pane {
     top: 0px!important;
 }
