@@ -91,11 +91,11 @@ body::-webkit-scrollbar-thumb {
     background: #f0ad4e;
     color: #fff;
     margin-left: -3.5px;
-	  width: 120%;
+	  width: 110%;
 	  font-weight:900;
 }
 	ymaps.ymaps-2-1-48-listbox__button-text {
-    padding-left: 0px!important;
+    padding-left: 2px!important;
 }
 	
 	
