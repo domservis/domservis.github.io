@@ -27645,15 +27645,15 @@ body.flex {
 *               of common elements in page footer
 */
 .page-foot {
-  padding: 65px 0 40px;
+/*  padding: 65px 0 40px;*/
 }
 
 @media (min-width: 768px) {
-  .page-foot {
+  /*.page-foot {
     padding-top: 77px;
     padding-bottom: 22px;
   }
-}
+}*/
 
 input,
 button,
