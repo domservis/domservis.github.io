@@ -27649,7 +27649,7 @@ body.flex {
 *               of common elements in page footer
 */
 .page-foot {
- padding: 65px 0 40px;
+ padding: 1px 0 40px;
 }
 
 @media (min-width: 768px) {
