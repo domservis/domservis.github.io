@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb {
 	  font-weight:900;
 }
 	ymaps.ymaps-2-1-48-listbox__button-text {
-    padding: 0!important;
+    padding-left: 8px!important;
 }
 	
 	
