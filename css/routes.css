@@ -3,6 +3,10 @@
     color: #fff;
 }
 
+.ymaps-2-1-48-listbox__button-text {
+    padding: 0!important;
+}
+
 ymaps.ymaps-2-1-48-controls-pane {
     top: 0px!important;
 }
