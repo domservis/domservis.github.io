@@ -31,9 +31,9 @@ ymaps.ymaps-2-1-48-controls-pane {
     opacity: 0; }}
 
 		     #dot .ping {
-    border: 2px solid #FF9800;
+    border: 2px solid #fc0;
     opacity: 1;
-    background:#ff1100;
+    background:#fc0;
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
     -webkit-animation-name: sonar;
