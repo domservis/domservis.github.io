@@ -3,6 +3,18 @@
     color: #fff;
 }
 
+
+.ymaps-2-1-48-balloon__tail:after {
+background-color: rgba(253, 253, 253, 0.76);
+}
+
+
+.ymaps-2-1-48-balloon__tail {
+     box-shadow: none!important;
+}
+
+
+
 .ymaps-2-1-48-listbox__button-text {
     padding: 0!important;
 	font-size:1em!important;
