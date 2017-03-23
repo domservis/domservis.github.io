@@ -13,7 +13,7 @@
 
 window.ChatraSetup = {
     mode: 'frame',
-    injectTo: 'chatra-wrapper' 
+    injectTo: 'meteor' 
 };
 
 
