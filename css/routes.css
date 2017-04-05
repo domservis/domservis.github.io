@@ -80,9 +80,9 @@ ymaps.ymaps-2-1-48-controls-pane {
     opacity: 0; }}
 
 		     #dot .ping {
-    border: 2px solid #fc0;
+  border: 2px solid #fc0;
     opacity: 1;
-    background:#fc0;
+    background: #fc0;
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
     -webkit-animation-name: sonar;
@@ -91,14 +91,15 @@ ymaps.ymaps-2-1-48-controls-pane {
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    width: 15px;
+    width: 30px;
     height: 15px;
     border-radius: 100%;
     /* position: absolute; */
+    /* transform: rotate(30deg); */
     /* left: 78%; */
-    margin-left: 28px;
+    margin-left: 25px;
     /* top: 47%; */
-     margin-top: 18px; 
+    margin-top: 55px;
 }
 		     
 		     #mp{
