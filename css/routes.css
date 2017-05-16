@@ -35,44 +35,44 @@
 /*----------------------------------------------------------------------------------------------*/
 
 
-ymaps.ymaps-2-1-48-listbox__button.ymaps-2-1-48-_visible-arrow.ymaps-2-1-48-_hidden-icon.ymaps-2-1-48-user-selection-none {
+ymaps.ymaps-2-1-50-listbox__button.ymaps-2-1-50-_visible-arrow.ymaps-2-1-50-_hidden-icon.ymaps-2-1-50-user-selection-none {
     background: #f0ad4e;
     color: #fff;
 }
 
 
-.ymaps-2-1-48-balloon__tail:after {
+.ymaps-2-1-50-balloon__tail:after {
 background-color: rgba(253, 253, 253, 0.76)!important;
 }
 
 
-.ymaps-2-1-48-balloon__tail {
+.ymaps-2-1-50-balloon__tail {
      box-shadow: none!important;
 }
 
 
 
-.ymaps-2-1-48-listbox__button-text {
+.ymaps-2-1-50-listbox__button-text {
     padding: 0!important;
 	font-size:1em!important;
 }
 
-.ymaps-2-1-48-listbox__button-arrow {
+.ymaps-2-1-50-listbox__button-arrow {
     background: transparent!important;
 }
 
-ymaps.ymaps-2-1-48-controls-pane {
+ymaps.ymaps-2-1-50-controls-pane {
     top: 0px!important;
 }
 
 #fr{width:100%;}#map{width:100%;height:100%;}
-.ymaps-2-1-48-balloon_layout_panel {background-color: rgba(255, 255, 255, 0.4)!important;}
-.ymaps-2-1-48-balloon__content {background: rgba(255, 255, 255, 0.79)!important;}
-.ymaps-2-1-48-copyright__wrap {display: none!important;}                      /*----копирайт----*/
-.ymaps-2-1-48-map-copyrights-promo {display: none!important;}                /*----готомапс----*/
-.ymaps-2-1-48-balloon__close+.ymaps-2-1-48-balloon__content {margin-right: 0px!important;padding-right: 0!important;}
-.ymaps-2-1-48-i-custom-scroll ::-webkit-scrollbar {width: 0px!important;height: 13px;}
-.ymaps-2-1-48-searchbox__normal-layout {display: none!important;}         /*----сёрчбокс----*/
+.ymaps-2-1-50-balloon_layout_panel {background-color: rgba(255, 255, 255, 0.4)!important;}
+.ymaps-2-1-50-balloon__content {background: rgba(255, 255, 255, 0.79)!important;}
+.ymaps-2-1-50-copyright__wrap {display: none!important;}                      /*----копирайт----*/
+.ymaps-2-1-50-map-copyrights-promo {display: none!important;}                /*----готомапс----*/
+.ymaps-2-1-50-balloon__close+.ymaps-2-1-48-balloon__content {margin-right: 0px!important;padding-right: 0!important;}
+.ymaps-2-1-50-i-custom-scroll ::-webkit-scrollbar {width: 0px!important;height: 13px;}
+.ymaps-2-1-50-searchbox__normal-layout {display: none!important;}         /*----сёрчбокс----*/
 		     @keyframes sonar {
   0%   { opacity: 1;
     transform: scale(1);}
@@ -142,19 +142,19 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) {
 /* Styles */
   #i {font-size: 2em;}  .btn-warning {width: 55px;} 
-  ymaps.ymaps-2-1-48-listbox__button.ymaps-2-1-48-_visible-arrow.ymaps-2-1-48-_hidden-icon.ymaps-2-1-48-user-selection-none {
+  ymaps.ymaps-2-1-50-listbox__button.ymaps-2-1-50-_visible-arrow.ymaps-2-1-50-_hidden-icon.ymaps-2-1-50-user-selection-none {
     background: #f0ad4e;
     color: #fff;
           margin-left: -7px;
     width: 105%;
 	  font-weight:900;
 }
-	ymaps.ymaps-2-1-48-listbox__button-text {
+	ymaps.ymaps-2-1-50-listbox__button-text {
     padding-left: 0.365px!important;
 }
 	
 	
-	.ymaps-2-1-48-listbox__button-arrow {
+	.ymaps-2-1-50-listbox__button-arrow {
     background: transparent!important;
   }
 }
