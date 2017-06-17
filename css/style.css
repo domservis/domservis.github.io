@@ -146,6 +146,8 @@ html {
     top: 120px;}
 #cnt {display:none;}
 
+#bosh{position:absolute;top:0;left:0;max-width:300px;margin-left:50px;margin-top:10px;}
+
 body {
   margin: 0;
 }
@@ -40122,7 +40124,7 @@ div.rd-search-results-live.active {
   max-width: 480px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px;}
   .swiper-slide-caption {
     padding-top: 68vw;
   }
@@ -40159,6 +40161,8 @@ div.rd-search-results-live.active {
 	.rd-navbar-brand {font-size:20px;} 
 	.rd-navbar-fixed .rd-navbar-panel .rd-navbar-brand {left:25%;}
 }
+
+
 
 @media (max-width: 767px) {
   .swiper-slide h1 {
