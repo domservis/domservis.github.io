@@ -44419,3 +44419,6 @@ margin-top:-400px;display:block; }
     padding: 8px 17px;
     text-decoration: none !important;
 }
+  ::-webkit-scrollbar {
+    width: 1px;
+}
