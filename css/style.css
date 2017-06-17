@@ -40125,7 +40125,7 @@ div.rd-search-results-live.active {
   max-width: 480px;
 }
 
-@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px; margin-top:40px;} #frm {border-radius: 20px;margin-top: -145px;}
+@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px; margin-top:53px;} #frm {border-radius: 20px;margin-top: -145px;}
   .swiper-slide-caption {
     padding-top: 68vw;
   }
@@ -40139,7 +40139,7 @@ div.rd-search-results-live.active {
     border-radius: 5px 5px 10px 10px;;
 	}
 	#cnt {position: absolute;
-    top: -8px;
+    top: 5px;
     left: 40%;
     border-radius: 10px;
     display: block;
