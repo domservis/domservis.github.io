@@ -145,6 +145,7 @@ html {
 /*    position: absolute;
     top: 120px;*/}
 #cnt {display:none;}
+#frm {border-radius: 20px;margin-top: -120px;}
 
 #bosh{position:absolute;top:0;left:0;max-width:300px;margin-left:50px;margin-top:25px;}
 
@@ -40124,7 +40125,7 @@ div.rd-search-results-live.active {
   max-width: 480px;
 }
 
-@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px;}
+@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px;} #frm {border-radius: 20px;margin-top: -120px;}
   .swiper-slide-caption {
     padding-top: 68vw;
   }
