@@ -40125,7 +40125,7 @@ div.rd-search-results-live.active {
   max-width: 480px;
 }
 
-@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px;} #frm {border-radius: 20px;margin-top: -145px;}
+@media (max-width: 479px) { #bosh {max-width:200px;margin-left:10px; margin-top:40px;} #frm {border-radius: 20px;margin-top: -145px;}
   .swiper-slide-caption {
     padding-top: 68vw;
   }
