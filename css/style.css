@@ -141,9 +141,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-#msk{    width: 91px;
-    position: absolute;
-    top: 120px;}
+#msk{    width: 50px;
+/*    position: absolute;
+    top: 120px;*/}
 #cnt {display:none;}
 
 #bosh{position:absolute;top:0;left:0;max-width:300px;margin-left:50px;margin-top:10px;}
