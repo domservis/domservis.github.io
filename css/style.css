@@ -141,9 +141,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-#msk{    width: 50px;
+#msk{width: 50px;    padding: 7px;
 /*    position: absolute;
-    top: 120px;*/}    padding: 7px;
+    top: 120px;*/}  
 #cnt {display:none;}
 #frm {border-radius: 20px;margin-top: -42.5px;}
 
